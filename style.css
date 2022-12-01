@@ -3,3 +3,20 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather-box {
+  border-style: solid;
+  border-width: thin;
+  border-radius: 5px;
+  margin-top: 100px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
